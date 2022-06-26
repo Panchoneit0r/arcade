@@ -18,7 +18,22 @@ import {StyleSheet,View,Button,TextInput,Text, } from 'react-native';
 
             <Text> Tu numero es {random}</Text> 
 
-         
+            <Button
+            title="Muy alto"
+            onPress={handleOnPress}
+            />
+            <Button
+            title="Un poco alto"
+            onPress={handleOnPress}
+            />
+            <Button
+            title="Muy Bajo"
+            onPress={handleOnPress}
+            />
+            <Button
+            title="Un poco bajo"
+            onPress={handleOnPress}
+            />
         </View>
     )
   
