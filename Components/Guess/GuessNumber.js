@@ -48,7 +48,6 @@ function GuessNumber({route, navigation}) {
         const num = parseInt(number);
         const numRand = parseInt(random);
         const text = calculateText(num, numRand);
-
         if (num === numRand){
             setWin(true);
         }
@@ -77,7 +76,7 @@ function GuessNumber({route, navigation}) {
             title="Guess your number"
             onPress={() => navigation.navigate('GuessYourNumber',{
                 name: "Guess Your Number",
-                countP: count,
+                countJ: count,
             })}
             />
             :

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {StyleSheet,Button, View, Text,Image} from 'react-native';
 
@@ -8,11 +7,12 @@ function HomeScreen({navigation}) {
         <View style={styles.container} >
             <Image
             style={styles.image}
-            source={require("../assets/tienda.jpg")}
+            source={require("../assets/arcade.jpg")}
             />
-            <Text style={styles.text}>Home</Text>
+            <Text style={styles.text}>Maquinitas el pancho</Text>
+            <Text style={styles.text}>Juega clasicos de ayer y hoy pero ahora en tu telefono</Text>
             <Button 
-                title="Ir a Detalle"
+                title="Ir a los juegos"
                 onPress={() => navigation.navigate('Games')}
             />
             

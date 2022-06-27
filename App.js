@@ -7,8 +7,9 @@ import HomeScreen from './Components/HomeScreen';
 import GamesScreen from './Components/GamesScreen';
 import SettingScreen from './Components/SettingScreen';
 import GuessNumber from './Components/Guess/GuessNumber';
-import GuessYourNumber from './Components/Guess/GuessYourNumber'
-import Piedra from './Components/Piedra/Piedra'
+import GuessYourNumber from './Components/Guess/GuessYourNumber';
+import Piedra from './Components/Piedra/Piedra';
+import Vaso from './Components/Vaso/Vaso';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -32,6 +33,7 @@ export default function App() {
         />
         <Stack.Screen name="1" component={GuessNumber} />
         <Stack.Screen name="2" component={Piedra} />
+        <Stack.Screen name="3" component={Vaso} />
         <Stack.Screen name="Details" component={SettingScreen} />
         <Stack.Screen name="GuessYourNumber" component={GuessYourNumber} />
       </Stack.Navigator>
